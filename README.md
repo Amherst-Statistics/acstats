@@ -26,7 +26,7 @@ devtools::install_github("Amherst-Statistics/acstats")
 1.) If the images display super tiny, try this fix where you are adding an image "example.jpeg" which is contained in a "images" subfolder:
 
 
-```{r image_block, echo=FALSE, fig.cap="Example caption", purl=FALSE} knitr::include_graphics("images/example.jpeg")
+``` {r image_block, echo=FALSE, fig.cap="Example caption", purl=FALSE} knitr::include_graphics("images/example.jpeg")
 ``` 
 
 2.) If the images are showing up funky places on the page (i.e. you wanted to put the image in-line with text and it’s popping up at the top of the page), try deleting all white space above and below the code chunk.
