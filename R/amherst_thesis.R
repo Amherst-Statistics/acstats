@@ -7,7 +7,7 @@ amherst_thesis <- function(toc = TRUE) {
                                   toc_depth = 3,
                                   highlight = "pygments",
                                   keep_tex = TRUE,
-                                  pandoc_args = "--chapters")
+                                  pandoc_args = "--top-level-division=chapter")
 
   # Mostly copied from knitr::render_sweave
   base$knitr$opts_knit$out.format <- "sweave"
