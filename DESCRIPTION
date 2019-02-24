@@ -1,9 +1,9 @@
 Package: acstats
 Type: Package
 Title: Amherst College Statistics Comprehensive Evaluation Template
-Version: 1.1
-Date: 2016-08-26
-Author: Susan Wang
+Version: 1.2
+Date: 2019-02-24
+Author: Susan Wang and Nicholas Horton
 Maintainer: Nicholas Horton <nhorton@amherst.edu>
 Description: This package, based on Chester Ismay's Reed College Thesis template package, contains the Amherst College statistics major Comprehensive Evaluation template.
 License: GPL-3
